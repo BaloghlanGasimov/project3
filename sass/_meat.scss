@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+.meat{
+    padding: 25px;
+    // border: 2px solid red;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .myproductlist{
+        position: relative;
+        width: 27%;
+        // height: 67vh;
+        height: auto;
+        border-radius: 5px;
+        border: 1px solid #d6d4d4;
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+        .ortalama{
+            width: 90%;
+            // height: 64vh;
+            height: auto;
+            // border: 1px solid black;
+            padding: 10px 0;
+            h2{
+                font-family: "Secular One", sans-serif;
+                color:#0a472e;
+                font-size: 26px;
+                position: absolute;
+                // font-weight: 600;
+                top: -15px;
+                left: 30px;
+                background-color: white;
+            }
+            .mycard{
+                width: 100%;
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // background-color: aqua ;
+                height: 140px;
+                // padding-bottom  : 20px;
+                padding:20px 0;
+                border-bottom: 1px solid #d6d4d4;
+                    .image-part{
+                        width: 30%;
+                        // background-color: aqua;
+                        img{
+                            cursor: pointer;
+                            height: 100px;
+                        // border-bottom: 1px solid #d6d4d4;
+    
+                        }
+                    }
+                    .right-text-part{
+                        width: 70%;
+                        // background-color: pink;
+                        display: flex;
+                        justify-content: flex-end;
+                        .center-text{
+                            // border: 2px solid black;
+                            width: 95%;
+                            display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        img{
+                            // width: 100%;
+                            height: 15px;
+                            width: 72px;
+                        }
+                        p{
+                            cursor: pointer;
+                            // width: 100%;
+                            font-size: 18px;
+                            &:hover{
+                                color: #9aa522;
+
+                            }
+                            span{
+                                font-family: "Secular One", sans-serif;
+                                color: #a8b324;
+                            }
+                        }
+                        }
+                    }
+            }
+            .view-more{
+                height: 50px;
+                // background-color: aqua;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    
+                        position: relative;
+                        text-decoration: none;
+                        color: #0A472E;
+                        font-weight: 700;
+                        transition: 0.2s;
+                        font-size: 12px;
+                        &:hover{
+                            color: #0d754a; 
+                            i{
+                                right: -16px;
+                            }
+                        }
+                        i{
+                            position: absolute;
+                            font-size: 10px;
+                            right: -13px;
+                            bottom: 0px;
+                            transition: 0.3s;
+                        }
+                    
+                }
+            }
+        }
+    }
+    .fresh-natural{
+        background-image: url('../img/meat.jpg');
+    }
+    .breaking-bread{
+        background-image: url('../img/omlet.jpg');
+        h2{
+            line-height: 38px !important;
+            font-size: 36px !important ;
+            font-weight: 500 !important;
+            // color:red;
+        }
+        .shop-now{
+                margin-top: 30px;
+                width: 100%;
+                // height: 50px;
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // border: 2px solid blue;
+                a{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: white;
+                    width: 135px;
+                    height: 43px;
+                    font-weight: 700;
+                    padding-bottom: 5px;
+                    border-radius: 25px;
+                    background-color: #0A472E;
+                    transition: 0.2s;
+                    font-size: 12px;
+                    &:hover{
+                        background-color: #A8AA31;
+                        i{
+                            right: 20px;
+                        }
+                    }
+                    i{
+                        position: absolute;
+                        font-size: 9px;
+                        right: 23px;
+                        bottom: 18px;
+                        transition: 0.3s;
+                    }
+                
+            }
+        }
+
+    }
+    .info-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height:70vh;
+        background-position: 0px;
+        background-size: cover;
+        // background-color: green;
+        transition: 0.3s;
+        &:hover{
+            background-position: -40px;
+            // background-blend-mode: darken;
+            // background-blend-mode:color-burn;
+            background-blend-mode: hard-light;
+            background-color: rgba(82, 81, 81, 0.671);
+        }
+        .text-part{
+            // padding-left: 20px;
+            width: 70%;
+            height: 60vh;
+            // border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            h5{
+                color:#A8AA31;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: "Pinyon Script", cursive;
+                margin-bottom: 18px;
+                // font-family: 'Secular One', sans-serif;
+            }
+            h2{
+                // width: 80%;
+                letter-spacing: 2px;
+                font-size: 40px;
+                font-weight: 700;
+                line-height:30px;
+                color:white;
+                font-family: "Secular One", sans-serif;
+                margin-bottom: 18px;
+
+            }
+            p{
+                // font-family: "Secular One", sans-serif;
+                // font-size: 16px;
+                line-height:20px;
+                font-weight: 600;
+                color:white;
+                // color:white;
+                
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:962px) {
+    .meat{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        .myproductlist{
+            // padding: 15px 0 !important;
+            width: 100% !important;
+            // height: 73VH;
+            margin: 20px 0px;
+            // .ortalama{
+                // height: 69VH;
+            // }
+        }
+        // .breaking-bread{
+            // background-position: bottom;
+        // }
+        .info-box{
+            
+            height: 40vh;
+            width: 100% !important;
+            margin-bottom: 15px;
+            .text-part{
+                height:30vh;
+            }
+        }
+        
+    }
+}

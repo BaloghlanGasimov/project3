@@ -1,0 +1,274 @@
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ortalama{
+        // background-color: aqua;
+        width: 95%;
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        flex-wrap: wrap;
+    
+        .top-part{
+            padding: 30px 0;
+            .myrow2{
+                margin: 0;
+            }
+            .left-part{
+                display: flex;
+                align-items: center;
+                i{
+                    margin-right: 8px;
+                    font-size: 13px;
+                    color:#D44E74;
+                    // font-weight: 600;
+                }
+                h2{
+                    font-family: 'Secular One', sans-serif;
+                    font-size:32px;
+                    color:#0A472E;
+                }
+            }
+        }
+        .body-part{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            .left-part{
+                width: 50%;
+                height: 70vh;
+                background-image:url('../img/brokoli.jpg') ;
+                border-radius: 4px;
+                background-repeat: no-repeat;
+                // background-position: center;
+                // background-size: 120%;
+                background-size:cover ;
+                // transition: 3s;
+                transition: 0.7s;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                &:hover{
+                    // background-position: -25px -50p
+                    background-size: 125%;
+                }
+
+                .center-left{
+                    // border: 2px solid red;
+                    width: 80%;
+                    height: 27vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    a{
+                        font-size: 12px;
+                        text-decoration: none;
+                        color:whitesmoke;
+                        i{
+                            margin-right: 8px;
+                            font-size: 12px;
+                        }
+                    }
+                    h3{
+                        font-family: 'Secular One', sans-serif;
+                    font-size:26px;
+                    color:white;
+                    padding-bottom: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        color:#a8b324;
+                    }
+                    }
+                }
+            }
+            .package{
+                a{
+                    width: 105px;
+                    height: 20px;
+                    // border-radius: 2px;
+                    background-color: #a8b324;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 10px !important;
+                    font-weight: 600;
+                }
+            }
+            .card-package{
+                position: absolute;
+                left:3%;
+                bottom:10%; 
+                z-index: 100;
+            }
+            .right-part{
+                width: 48%;
+                // border: 2px solid blue;
+                height: 70vh;
+                .mycard{
+                    // border: 2px solid yellow;
+                    width: 100%;
+                    height: 34vh;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .image-part{
+                        // height: 32vh;
+                        display: flex;
+                        align-items: center;    
+                        // border: 2px solid black;
+                        width: 48%;
+                        position: relative;
+                        img{
+                            width: 100%;
+                            border-radius: 2px;
+                        }
+                    }
+                    .text-part{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 48%;
+                        a{
+                            font-size: 12px;
+                            text-decoration: none;
+                            color:#0A472E;
+                            i{
+                                margin-right: 8px;
+                                font-size: 12px;
+                            }
+                        }
+                        h3{
+                            font-family: 'Secular One', sans-serif;
+                        font-size:22px;
+                        color:#0A472E;
+                        padding-bottom: 20px;
+                        cursor: pointer;
+                        &:hover{
+                            color:#a8b324;
+                        }
+                        }
+                        p{
+                            color:#444444;
+                            line-height: 25px;
+                            margin-top: -20px;
+                            font-size: 15px;
+                        }
+                        a{
+                                font-size: 13px;
+                                font-weight: 600;
+                                color:#a8b324;
+                                text-decoration: dashed;
+                            i{
+                                font-size: 10px;
+                            }
+                            &:hover{
+                                color:#7a831b;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// @media only screen and (max-width:962px) {
+//     .news{
+//         .ortalama{
+//             .body-part{
+//                 .right-part{
+//                     .mycard{
+//                         .text-part{
+//                             // a{
+//                             //     font-size: 13px;
+//                             // }
+//                             // h3{
+//                             //     font-size: 16px;
+//                             // }
+//                             // p{
+//                             //     font-size: 14px;
+//                             // }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+    
+// }
+
+
+@media only screen and (max-width:962px) {
+    .news{
+        .ortalama{
+            .body-part{
+                .left-part{
+                    display: none;
+                }
+                .right-part{
+                    height: auto;
+                    width: 100%;
+                    .mycard{
+                        margin-bottom: 20px;
+
+                        .text-part{
+                            // width: 100%;
+                            padding: 15px 0;
+                            // a{
+                            //     font-size: 13px;
+                            // }
+                            // h3{
+                            //     font-size: 16px;
+                            // }
+                            // p{
+                            //     font-size: 14px;
+                            // }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .news{
+        .ortalama{
+            .body-part{
+                .left-part{
+                    display: none;
+                }
+                .right-part{
+                    height: auto;
+                    width: 100%;
+                    .mycard{
+                        height: auto;
+                        margin-bottom: 20px;
+                        .image-part{
+                            width: 100%;
+
+                        }
+                        .text-part{
+                            width: 100%;
+                            padding: 15px 0;
+                            a{
+                                margin-bottom: 15px;
+                            }
+                            h3{
+                                margin-bottom: 15px;
+                            }
+                            p{
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

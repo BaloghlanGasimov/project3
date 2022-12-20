@@ -1,0 +1,2487 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+header .top-part {
+  width: 100%;
+  height: 6vh;
+  background-color: #0A472E;
+  display: flex;
+  justify-content: center;
+}
+header .top-part .ortalama {
+  display: flex;
+  width: 95%;
+}
+header .top-part .ortalama .left-part {
+  width: 20%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+header .top-part .ortalama .left-part .part {
+  display: flex;
+  align-items: center;
+}
+header .top-part .ortalama .left-part p {
+  margin: 0;
+  height: 4vh;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+header .top-part .ortalama .left-part i {
+  margin-right: 7px;
+  font-size: 14px;
+  color: whitesmoke;
+}
+header .top-part .ortalama .center-part {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+header .top-part .ortalama .center-part .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5vh;
+}
+header .top-part .ortalama .center-part .text span {
+  border-radius: 14px;
+  height: 3.3vh;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: #a8b324;
+}
+header .top-part .ortalama .center-part .text span p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+header .top-part .ortalama .center-part .text p {
+  display: flex;
+  margin: 0;
+  font-size: 15px;
+}
+header .top-part .ortalama .right-part {
+  width: 20%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .top-part .ortalama .right-part .mydropdown {
+  position: relative;
+}
+header .top-part .ortalama .right-part .mydropdown .mybutton {
+  background-color: var(--top-part);
+  border: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+header .top-part .ortalama .right-part .mydropdown .mybutton:hover {
+  color: #a8b324;
+}
+header .top-part .ortalama .right-part .mydropdown .mymenu {
+  height: 13vh;
+  padding: 10px;
+}
+header .top-part .ortalama .right-part .dropdown-menu {
+  min-width: 120% !important;
+}
+@media only screen and (max-width: 1000px) {
+  header .top-part {
+    display: none;
+  }
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main-part {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.main-part .top-part {
+  width: 100%;
+  padding: 0px 18px;
+  position: absolute;
+  display: flex;
+  opacity: 1;
+  z-index: 1020;
+}
+.main-part .top-part .logo-part {
+  width: 20%;
+}
+.main-part .top-part .link-parts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+.main-part .top-part .link-parts a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  transition: 0.05s;
+}
+.main-part .top-part .link-parts a:hover {
+  color: #0A472E;
+}
+.main-part .top-part .link-parts a:hover i {
+  transform: rotate(180deg);
+}
+.main-part .top-part .link-parts a:nth-child(1) {
+  color: #0A472E;
+}
+.main-part .top-part .link-parts a i {
+  font-size: 10px;
+  transition: 0.3s;
+}
+.main-part .top-part .link-parts .home {
+  position: relative;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+}
+.main-part .top-part .link-parts .home:hover .home-drop {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+.main-part .top-part .link-parts .home .home-drop {
+  position: absolute;
+  height: 82vh;
+  width: 250px;
+  border-radius: 5px;
+  padding: 20px 0px;
+  background-color: white;
+  top: 150%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.main-part .top-part .link-parts .home .home-drop li {
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  transition: 0.2s;
+  font-size: 14px;
+}
+.main-part .top-part .link-parts .home .home-drop li:hover {
+  background-color: rgb(245, 242, 242);
+  color: #a8b324;
+}
+.main-part .top-part .link-parts .shop {
+  height: 12vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.main-part .top-part .link-parts .shop:hover .shop-drop {
+  display: block;
+}
+.main-part .top-part .link-parts .shop .shop-drop {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 220px;
+  height: 30vh;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 0px;
+  display: none;
+}
+.main-part .top-part .link-parts .shop .shop-drop li {
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 20px;
+  transition: 0.2s;
+  font-size: 14px;
+}
+.main-part .top-part .link-parts .shop .shop-drop li:hover {
+  background-color: rgb(245, 242, 242);
+  color: #a8b324;
+}
+.main-part .top-part .link-parts .shop .product-single {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.main-part .top-part .link-parts .shop .product-single i {
+  transform: none;
+  transition: 0.2s;
+}
+.main-part .top-part .link-parts .shop .product-single:hover .product-drop {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+}
+.main-part .top-part .link-parts .shop .product-single:hover i {
+  transform: rotateZ(-90deg);
+}
+.main-part .top-part .link-parts .shop .product-single .product-drop {
+  position: absolute;
+  width: 240px;
+  height: 40vh;
+  top: 35px;
+  left: 100%;
+  padding: 20px 0px;
+  border-radius: 3px;
+  background-color: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.main-part .top-part .link-parts .shop .product-single .product-drop li {
+  transition: 0.1s;
+  color: black;
+}
+.main-part .top-part .link-parts .shop .product-single .product-drop li:hover {
+  color: #a8b324;
+}
+.main-part .top-part .link-parts .page {
+  position: relative;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+}
+.main-part .top-part .link-parts .page:hover .page-drop {
+  opacity: 1;
+  visibility: visible;
+}
+.main-part .top-part .link-parts .page .page-drop {
+  position: absolute;
+  visibility: hidden;
+  width: 250px;
+  height: 30vh;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  opacity: 0;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+.main-part .top-part .link-parts .page .page-drop li {
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  transition: 0.2s;
+  font-size: 14px;
+}
+.main-part .top-part .link-parts .page .page-drop li:hover {
+  background-color: rgb(245, 242, 242);
+  color: #a8b324;
+}
+.main-part .top-part .link-parts .blog {
+  position: relative;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+}
+.main-part .top-part .link-parts .blog:hover .blog-drop {
+  opacity: 1;
+  visibility: visible;
+}
+.main-part .top-part .link-parts .blog .blog-drop {
+  position: absolute;
+  visibility: hidden;
+  width: 220px;
+  height: 25vh;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  opacity: 0;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+.main-part .top-part .link-parts .blog .blog-drop li {
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  transition: 0.2s;
+  font-size: 14px;
+}
+.main-part .top-part .link-parts .blog .blog-drop li:hover {
+  background-color: rgb(245, 242, 242);
+  color: #a8b324;
+}
+.main-part .top-part .icon-parts {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main-part .top-part .icon-parts .inside {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+}
+.main-part .top-part .icon-parts .inside:hover {
+  background-color: #a8b324;
+}
+.main-part .top-part .icon-parts .search {
+  background-color: white;
+}
+.main-part .top-part .icon-parts .user {
+  background-color: rgba(236, 255, 243, 0.815);
+}
+.main-part .top-part .icon-parts .liked {
+  position: relative;
+  background-color: rgba(255, 246, 236, 0.815);
+}
+.main-part .top-part .icon-parts .shop {
+  position: relative;
+  background-color: rgba(248, 240, 250, 0.815);
+}
+.main-part .top-part .icon-parts .shop-part {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 13vh;
+  position: relative;
+}
+.main-part .top-part .icon-parts .shop-part:hover .shop-part-drop {
+  opacity: 1;
+  visibility: visible;
+}
+.main-part .top-part .icon-parts .shop-part .shop-part-drop {
+  border-top: 2px solid #a8b324;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  width: 300px;
+  height: 20vh;
+  background-color: white;
+  top: 100%;
+  right: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.main-part .top-part .icon-parts .shop-part .shop-part-drop p {
+  color: rgb(15, 15, 15);
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.main-part .top-part .icon-parts .shop-part p {
+  color: white;
+  font-size: 16px;
+  margin-left: 12px;
+  font-weight: 600;
+}
+.main-part .top-part .icon-parts .shop-part:hover .shop {
+  background-color: #a8b324;
+}
+.main-part .top-part .icon-parts .count {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #ccad65;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  top: 0;
+  right: 0;
+}
+.main-part .top-part2 {
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 450;
+  display: none;
+}
+.main-part .top-part2 .mybutton {
+  background-color: var(--main-part);
+  color: white;
+  border: none;
+}
+.main-part .top-part2 .my-offcanvas {
+  width: 260px;
+  background-color: black;
+}
+.main-part .top-part2 .my-offcanvas .my-offcanvas-header {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-part .top-part2 .my-offcanvas .my-offcanvas-header .x-button {
+  color: white;
+}
+.main-part .top-part2 .my-offcanvas .my-offcanvas-body .mydropdown .mybutton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  height: 6vh;
+  border-bottom: 1px solid #080808;
+  display: flex;
+  align-items: center;
+}
+.main-part .top-part2 .my-offcanvas .my-offcanvas-body .mydropdown .mybutton i {
+  color: white;
+  font-size: 9px;
+}
+.main-part .top-part2 .my-offcanvas .my-offcanvas-body .mydropdown .mydropdown-menu {
+  width: 230px;
+  background-color: black;
+}
+.main-part .top-part2 .my-offcanvas .my-offcanvas-body .mydropdown .mydropdown-menu li {
+  padding-left: 10px;
+  border-bottom: 1px solid #080808;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+.main-part .top-part2 .my-offcanvas .my-offcanvas-body .mydropdown .mydropdown-menu li a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+.main-part .top-part2 .shop {
+  cursor: pointer;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+  background-color: rgba(248, 240, 250, 0.815);
+}
+.main-part .top-part2 .shop .count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #ccad65;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+}
+.main-part .top-part2 .shop:hover {
+  background-color: #a8b324;
+}
+.main-part .center-part {
+  width: 100%;
+  z-index: 1;
+}
+.main-part .center-part .myslide .slider1 {
+  height: 95vh;
+  background-color: #AFC675;
+}
+.main-part .center-part .myslide .slider1 .left-text-part {
+  height: 45vh;
+  left: 0;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 200;
+}
+.main-part .center-part .myslide .slider1 .left-text-part span {
+  font-family: "Pacifico", cursive;
+  font-size: 22px;
+}
+.main-part .center-part .myslide .slider1 .left-text-part p {
+  color: white;
+  font-size: 16px;
+}
+.main-part .center-part .myslide .slider1 .left-text-part h2 {
+  color: white;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+.main-part .center-part .myslide .slider1 .image-part {
+  background-image: url(../img/slider1-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  z-index: 20;
+  width: 60%;
+  position: absolute;
+  right: 0;
+}
+.main-part .center-part .myslide .slider1 .image-part img {
+  position: absolute;
+  right: 0;
+}
+.main-part .center-part .myslide .slider1 .image-part .discount {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  left: 10%;
+  padding-bottom: 10px;
+  z-index: 30;
+  background-image: url("../img/qirmizi-daire.png");
+  -webkit-animation: rotate 4s infinite;
+          animation: rotate 4s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotateY(60deg);
+  }
+  100% {
+    transform: rotateY(-60deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(60deg);
+  }
+  100% {
+    transform: rotateY(-60deg);
+  }
+}
+.main-part .center-part .myslide .slider1 .image-part .discount p {
+  padding-bottom: 5px;
+  font-family: "Chivo Mono", monospace;
+  color: white;
+}
+.main-part .center-part .myslide .slider1 .ust-yarpaq {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  height: 35vh;
+}
+.main-part .center-part .myslide .slider1 .alt-yarpaq {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  height: 35vh;
+}
+.main-part .center-part .myslide .slider1 .shop-now {
+  width: 130px;
+  height: 40px;
+  background-color: #0A472E;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 400;
+}
+.main-part .center-part .myslide .slider1 .shop-now a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.main-part .center-part .myslide .slider1 .shop-now:hover {
+  background-color: white;
+}
+.main-part .center-part .myslide .slider1 .shop-now:hover a {
+  color: #0A472E;
+}
+.main-part .center-part .myslide .slider2 {
+  position: relative;
+  background-color: #DDBE73;
+  height: 95vh;
+}
+.main-part .center-part .myslide .slider2 .left-text-part {
+  height: 45vh;
+  left: 0;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 200;
+}
+.main-part .center-part .myslide .slider2 .left-text-part p {
+  color: white;
+  font-size: 16px;
+}
+.main-part .center-part .myslide .slider2 .left-text-part h2 {
+  color: white;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+.main-part .center-part .myslide .slider2 .image-part {
+  background-image: url(../img/slider2-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  z-index: 20;
+  width: 60%;
+  position: absolute;
+  right: 0;
+}
+.main-part .center-part .myslide .slider2 .image-part img {
+  position: absolute;
+  right: 0;
+}
+.main-part .center-part .myslide .slider2 .image-part .discount {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 15%;
+  left: 7%;
+  padding-bottom: 10px;
+  z-index: 30;
+  background-image: url("../img/qirmizi-daire.png");
+  -webkit-animation: rotate 4s infinite;
+          animation: rotate 4s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  33% {
+    transform: rotateY(-60deg);
+  }
+  66% {
+    transform: rotateY(140deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+.main-part .center-part .myslide .slider2 .image-part .discount p {
+  padding-bottom: 5px;
+  font-family: "Chivo Mono", monospace;
+  color: white;
+}
+.main-part .center-part .myslide .slider2 .ust-yarpaq {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  height: 35vh;
+}
+.main-part .center-part .myslide .slider2 .alt-yarpaq {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  height: 35vh;
+}
+.main-part .center-part .myslide .slider2 .shop-now {
+  width: 130px;
+  height: 40px;
+  background-color: #0A472E;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 400;
+}
+.main-part .center-part .myslide .slider2 .shop-now a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.main-part .center-part .myslide .slider2 .shop-now:hover {
+  background-color: white;
+}
+.main-part .center-part .myslide .slider2 .shop-now:hover a {
+  color: #0A472E;
+}
+.main-part .center-part .carousel-control-prev {
+  z-index: 320;
+}
+.main-part .center-part .carousel-control-next {
+  z-index: 320;
+}
+.main-part .center-part .my-prev {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 500;
+}
+.main-part .center-part .my-prev i {
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-part {
+    position: relative;
+  }
+  .main-part .top-part {
+    display: none;
+  }
+  .main-part .top-part2 {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .main-part .center-part .myslide .slider1 {
+    height: 50vh;
+  }
+  .main-part .center-part .myslide .slider1 .left-text-part {
+    height: 35vh;
+  }
+  .main-part .center-part .myslide .slider1 .left-text-part p {
+    font-size: 13px !important;
+  }
+  .main-part .center-part .myslide .slider1 .left-text-part h2 {
+    font-size: 20px;
+  }
+  .main-part .center-part .myslide .slider1 .left-text-part span {
+    font-size: 14px;
+  }
+  .main-part .center-part .myslide .slider1 .image-part {
+    height: 45vh;
+  }
+  .main-part .center-part .myslide .slider1 .image-part .discount {
+    top: 15%;
+    right: 38%;
+    width: 80px;
+    height: 80px;
+  }
+  .main-part .center-part .myslide .slider2 {
+    height: 50vh;
+  }
+  .main-part .center-part .myslide .slider2 .left-text-part {
+    height: 35vh;
+  }
+  .main-part .center-part .myslide .slider2 .left-text-part p {
+    font-size: 13px !important;
+  }
+  .main-part .center-part .myslide .slider2 .left-text-part h2 {
+    font-size: 20px;
+  }
+  .main-part .center-part .myslide .slider2 .left-text-part span {
+    font-size: 14px;
+  }
+  .main-part .center-part .myslide .slider2 .image-part {
+    height: 45vh;
+  }
+  .main-part .center-part .myslide .slider2 .image-part .discount {
+    top: 15%;
+    right: 38%;
+    width: 80px;
+    height: 80px;
+  }
+}
+.fruits-part {
+  margin-top: 25px;
+  padding: 0 20px;
+  z-index: 1000;
+}
+.fruits-part .sushi {
+  height: 45vh;
+  background-image: url("../img/card1-img.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  transition: 0.4s;
+  margin-top: 8px;
+}
+.fruits-part .sushi:hover {
+  background-position: -83px;
+}
+.fruits-part .sushi:hover .text-part a {
+  bottom: 20%;
+}
+.fruits-part .grand {
+  margin-top: 8px;
+  background-color: #FFE8C9;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fruits-part .grand .center-part {
+  border: 1px solid white;
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.fruits-part .grand .center-part:hover {
+  border: 1px solid #a8b324;
+}
+.fruits-part .grand .center-part .text-part2 {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.fruits-part .grand .center-part .text-part2 p {
+  color: #333333;
+}
+.fruits-part .grand .center-part .text-part2 h3 {
+  color: #0A472E;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.fruits-part .grand .center-part .text-part2 span {
+  color: #a8b324;
+  font-family: "Pinyon Script", cursive;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: -40px !important;
+}
+.fruits-part .grand .center-part .text-part2 .firlan {
+  margin-top: -24px;
+  transform: rotateZ(-13deg);
+}
+.fruits-part .grand .center-part .alma {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+.fruits-part .grand .center-part .portagal {
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+}
+.fruits-part .organic {
+  height: 45vh;
+  background-image: url("../img/card2-img.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  transition: 0.4s;
+  margin-top: 8px;
+}
+.fruits-part .organic:hover {
+  background-position: -60px;
+}
+.fruits-part .organic:hover .text-part a {
+  bottom: 20%;
+}
+.fruits-part .text-part {
+  position: relative;
+  height: 42vh;
+  width: 70%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fruits-part .text-part p {
+  font-weight: 800;
+  font-family: "Pinyon Script", cursive;
+  color: red;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.fruits-part .text-part h3 {
+  height: 22vh;
+  color: #0A472E;
+  font-size: 28px;
+  font-weight: 700;
+}
+.fruits-part .text-part a {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  text-decoration: none;
+  width: 120px;
+  height: 40px;
+  background-color: #0A472E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 12px;
+  transition: 0.5s;
+  transition: 0.5s position 0.2s background-color;
+  font-weight: 700;
+}
+.fruits-part .text-part a:hover {
+  background-color: #a8b324;
+}
+.fruits-part .coffee {
+  height: 45vh;
+  background-image: url("../img/card3-img.jpg");
+  background-position: center;
+  display: flex;
+  align-items: center;
+  transition: 0.4s;
+  margin-top: 8px;
+}
+.fruits-part .coffee:hover {
+  background-position: -45px;
+}
+.fruits-part .coffee:hover .text-part3 a {
+  bottom: 10%;
+}
+.fruits-part .shipping {
+  margin-top: 8px;
+  background-color: #E7F6D4;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fruits-part .shipping .center-part {
+  border: 1px solid white;
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.fruits-part .shipping .center-part:hover {
+  border: 1px solid #a8b324;
+}
+.fruits-part .shipping .center-part .text-part2 {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.fruits-part .shipping .center-part .text-part2 p {
+  color: #a8b324;
+  font-weight: 800;
+  font-family: "Pinyon Script", cursive;
+  font-size: 24px;
+}
+.fruits-part .shipping .center-part .text-part2 .htext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fruits-part .shipping .center-part .text-part2 .htext h3 {
+  color: #0A472E;
+  font-size: 32px;
+  font-weight: 700;
+}
+.fruits-part .shipping .center-part .text-part2 .htext p span {
+  color: #505050;
+  width: 100%;
+  font-weight: 600;
+  font-family: none;
+  font-size: 13px;
+  text-align: center;
+}
+.fruits-part .shipping .center-part .text-part2 a {
+  text-decoration: none;
+  width: 120px;
+  height: 40px;
+  background-color: #0A472E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 12px;
+  transition: 0.5s;
+  transition: 0.5s position 0.2s background-color;
+  font-weight: 700;
+}
+.fruits-part .shipping .center-part .text-part2 a:hover {
+  background-color: #a8b324;
+}
+.fruits-part .shipping .center-part .text-part2 span {
+  color: #a8b324;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: -40px !important;
+}
+.fruits-part .shipping .center-part .text-part2 .firlan {
+  margin-top: -24px;
+  transform: rotateZ(-13deg);
+}
+.fruits-part .shipping .center-part .alma {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+.fruits-part .shipping .center-part .portagal {
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+}
+.fruits-part .fresh {
+  height: 45vh;
+  position: relative;
+  background-color: #FEDDE6;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  margin-top: 8px;
+}
+.fruits-part .fresh .portagal {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+.fruits-part .fresh:hover {
+  background-position: -60px;
+}
+.fruits-part .fresh:hover .text-part3 a {
+  bottom: 20%;
+}
+.fruits-part .text-part3 {
+  position: relative;
+  height: 35vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.fruits-part .text-part3 p {
+  color: #505050;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.fruits-part .text-part3 h3 {
+  color: #0A472E;
+  font-size: 30px;
+  font-weight: 700;
+}
+.fruits-part .text-part3 a {
+  position: absolute;
+  bottom: -10px;
+  right: 70px;
+  text-decoration: none;
+  width: 120px;
+  height: 40px;
+  background-color: #0A472E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 12px;
+  transition: 0.5s;
+  transition: 0.5s position 0.2s background-color;
+  font-weight: 700;
+}
+.fruits-part .text-part3 a:hover {
+  background-color: #a8b324;
+}
+.fruits-part .text-part4 {
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.fruits-part .text-part4:hover {
+  border: 1px solid #a8b324;
+}
+.fruits-part .text-part4 p {
+  color: #505050;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.fruits-part .text-part4 h3 {
+  color: #0A472E;
+  font-size: 30px;
+  font-weight: 700;
+}
+.fruits-part .text-part4 a {
+  position: absolute;
+  bottom: -10px;
+  right: 70px;
+  text-decoration: none;
+  width: 120px;
+  height: 40px;
+  background-color: #0A472E;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 12px;
+  transition: 0.5s;
+  transition: 0.5s position 0.2s background-color;
+  font-weight: 700;
+}
+.fruits-part .text-part4 a:hover {
+  background-color: #a8b324;
+}
+
+.products {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+}
+.products .ortalama {
+  width: 95%;
+}
+.products .top-part .myrow2 {
+  margin: 0;
+}
+.products .top-part .left-part {
+  display: flex;
+  align-items: center;
+}
+.products .top-part .left-part i {
+  margin-right: 8px;
+  font-size: 13px;
+  color: #D44E74;
+}
+.products .top-part .left-part h2 {
+  font-family: "Secular One", sans-serif;
+  font-size: 32px;
+  color: #0A472E;
+}
+.products .top-part .right-part {
+  display: flex;
+  justify-content: flex-end;
+}
+.products .top-part .right-part .arrow {
+  border-radius: 50%;
+  border: 1px solid #cac9c9;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+}
+.products .top-part .right-part .arrow:hover {
+  background-color: #A8B324;
+}
+.products .center-part {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+.products .center-part .slide .mycard {
+  border: none;
+}
+.products .center-part .slide .mycard:hover img {
+  transform: scale(1.1);
+}
+.products .center-part .slide .mycard:hover .line .main-line {
+  width: 40%;
+}
+.products .center-part .slide .mycard:hover .ins-prod {
+  height: 40px;
+  opacity: 1;
+}
+.products .center-part .slide .mycard .mycard-body {
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  justify-content: space-between;
+}
+.products .center-part .slide img {
+  transition: 0.3s;
+}
+.products .center-part .slide .ins-prod {
+  position: absolute;
+  width: 40%;
+  bottom: 33%;
+  left: 29%;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transition: 0.5s;
+}
+.products .center-part .slide .ins-prod .action {
+  border-radius: 50%;
+  border: 1px solid #cac9c9;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+}
+.products .center-part .slide .ins-prod .action:hover {
+  border: none;
+  background-color: #A8B324;
+}
+.products .center-part .slide .ins-prod .action:hover i {
+  color: whitesmoke;
+}
+.products .center-part .slide .out-stock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  background-color: #999999;
+}
+.products .center-part .slide .out-stock p {
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  color: white;
+}
+.products .center-part .slide .sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 15px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  background-color: #E55757;
+}
+.products .center-part .slide .sale p {
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  color: white;
+}
+.products .center-part .slide p {
+  text-align: center;
+  font-family: "Secular One", sans-serif;
+  color: #A8B324;
+  font-size: 20px;
+}
+.products .center-part .slide h5 {
+  font-size: 15px;
+  color: #2F2F2F;
+  text-align: center;
+}
+.products .center-part .slide h5:hover {
+  color: #A8B324;
+}
+.products .center-part .slide a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: "Secular One", sans-serif;
+}
+.products .center-part .slide a:hover {
+  color: #A8B324;
+}
+.products .center-part .slide a i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.products .center-part .slide .line {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1.5px;
+}
+.products .center-part .slide .line .main-line {
+  background-color: #999999;
+  width: 20%;
+  height: 1.5px;
+  transition: 0.3s;
+}
+.products .center-part .bottom-part {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products .center-part .bottom-part p {
+  color: #555555;
+  margin-right: 10px;
+}
+.products .center-part .bottom-part a {
+  position: relative;
+  color: #A8B324;
+  font-size: 14px;
+  font-weight: 600;
+}
+.products .center-part .bottom-part a i {
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+  font-size: 10px;
+  transition: 0.3s;
+}
+.products .center-part .bottom-part a:hover {
+  color: #838d19;
+}
+.products .center-part .bottom-part a:hover i {
+  right: -20px;
+}
+
+.slide2 {
+  display: none;
+}
+
+.slide3 {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .slide1 {
+    display: none !important;
+  }
+  .slide2 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .slide2 {
+    display: none !important;
+  }
+  .slide3 {
+    display: block;
+  }
+  .slide .mycard .mycard-body {
+    margin-top: 20px;
+  }
+  .products .top-part .right-part {
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
+.superfoods .superrow {
+  margin: 0px;
+}
+.superfoods .superrow .left-part {
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/mygilas.jpg");
+}
+.superfoods .superrow .right-part {
+  height: 120vh;
+  background-image: url("../img/mygilas2.jpg");
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.superfoods .superrow .right-part .ortalama {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100vh;
+}
+.superfoods .superrow .right-part .ortalama .top-text {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.superfoods .superrow .right-part .ortalama .top-text h5 {
+  color: #A8AA31;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Pinyon Script", cursive;
+}
+.superfoods .superrow .right-part .ortalama .top-text h2 {
+  width: 80%;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  font-family: "Secular One", sans-serif;
+}
+.superfoods .superrow .right-part .ortalama .top-text p {
+  line-height: 25px;
+  font-weight: 600;
+  color: white;
+}
+.superfoods .superrow .right-part .ortalama .center-part {
+  margin-top: 15px;
+}
+.superfoods .superrow .right-part .ortalama .center-part .symbol-card {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.superfoods .superrow .right-part .ortalama .center-part .symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: 8px;
+}
+.superfoods .superrow .right-part .ortalama .center-part .symbol i {
+  font-size: 30px;
+}
+.superfoods .superrow .right-part .ortalama .center-part p {
+  color: white;
+}
+.superfoods .superrow .right-part .ortalama .learn-more {
+  width: 100%;
+  display: flex;
+}
+.superfoods .superrow .right-part .ortalama .learn-more a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  background-color: #0A472E;
+  transition: 0.2s;
+}
+.superfoods .superrow .right-part .ortalama .learn-more a:hover {
+  background-color: #A8AA31;
+}
+.superfoods .superrow .right-part .ortalama .learn-more a:hover i {
+  right: 15px;
+}
+.superfoods .superrow .right-part .ortalama .learn-more a i {
+  position: absolute;
+  font-size: 10px;
+  right: 18px;
+  bottom: 20px;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 992px) {
+  .superfoods .superrow .left-part {
+    height: 35vh;
+  }
+  .superfoods .superrow .right-part {
+    padding: 25px 0;
+    height: auto;
+  }
+  .superfoods .superrow .right-part .ortalama {
+    width: 85%;
+    height: auto;
+  }
+  .superfoods .superrow .right-part .ortalama .top-text {
+    height: 30vh !important;
+    margin-bottom: 20px;
+  }
+  .superfoods .superrow .right-part .ortalama .top-text h5 {
+    text-align: center;
+  }
+  .superfoods .superrow .right-part .ortalama .top-text h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .superfoods .superrow .right-part .ortalama .center-part .mysymbol {
+    display: flex;
+    justify-content: center;
+  }
+  .superfoods .superrow .right-part .ortalama .center-part .myp {
+    display: flex;
+    justify-content: center;
+  }
+  .superfoods .superrow .right-part .ortalama .learn-more {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .superfoods .superrow .right-part .ortalama {
+    width: 80%;
+  }
+  .superfoods .superrow .right-part .ortalama .top-text {
+    height: 45vh;
+  }
+}
+.walnut .myrow {
+  margin: 0;
+  background-image: url("../img/walnut.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.walnut .myrow .left-part {
+  height: 100vh;
+}
+.walnut .myrow .right-part {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 0;
+}
+.walnut .myrow .right-part .ortalama {
+  height: 80vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.walnut .myrow .right-part .ortalama h5 {
+  color: #A8AA31;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Pinyon Script", cursive;
+}
+.walnut .myrow .right-part .ortalama h2 {
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #0A472E;
+  font-family: "Secular One", sans-serif;
+}
+.walnut .myrow .right-part .ortalama p {
+  line-height: 25px;
+  font-weight: 600;
+  color: #444444;
+}
+.walnut .myrow .right-part .ortalama p span {
+  font-family: Secular One, sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #a8b324;
+  margin-left: 15px;
+}
+.walnut .myrow .right-part .ortalama .ptext1 {
+  display: none;
+}
+.walnut .myrow .right-part .ortalama .mycard {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.walnut .myrow .right-part .ortalama .mycard img {
+  margin-right: 40px;
+  height: 70px;
+}
+.walnut .myrow .right-part .ortalama .mycard p {
+  width: 30%;
+}
+.walnut .myrow .right-part .ortalama .mycard .count {
+  width: 145px !important;
+  border: 0.5px solid #e5e2e2;
+  height: 40px;
+  display: flex;
+  background-color: white;
+  margin: 0 20px;
+}
+.walnut .myrow .right-part .ortalama .mycard .count .minus {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+.walnut .myrow .right-part .ortalama .mycard .count .minus:hover {
+  background-color: #e2e1e1;
+}
+.walnut .myrow .right-part .ortalama .mycard .count .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+.walnut .myrow .right-part .ortalama .mycard .count .plus {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34%;
+}
+.walnut .myrow .right-part .ortalama .mycard .count .plus:hover {
+  background-color: #e2e1e1;
+}
+.walnut .myrow .right-part .ortalama .bundle {
+  border-top: 1px solid #d8d6d6;
+  padding-top: 20px;
+}
+.walnut .myrow .right-part .ortalama .bundle h4 {
+  color: #555555;
+  font-weight: 400;
+  font-size: 18px;
+}
+.walnut .myrow .right-part .ortalama .bundle h4 span {
+  color: black;
+  font-family: Secular One, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+.walnut .myrow .right-part .ortalama .learn-more {
+  width: 100%;
+  display: flex;
+}
+.walnut .myrow .right-part .ortalama .learn-more a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  background-color: #0A472E;
+  transition: 0.2s;
+}
+.walnut .myrow .right-part .ortalama .learn-more a:hover {
+  background-color: #A8AA31;
+}
+.walnut .myrow .right-part .ortalama .learn-more a:hover i {
+  right: 15px;
+}
+.walnut .myrow .right-part .ortalama .learn-more a i {
+  position: absolute;
+  font-size: 10px;
+  right: 18px;
+  bottom: 20px;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 992px) {
+  .walnut .myrow .right-part .ortalama p span {
+    font-size: none;
+  }
+  .walnut .myrow {
+    background-image: none;
+    background-color: #E8F8F7;
+  }
+  .walnut .myrow .right-part {
+    height: auto !important;
+  }
+  .walnut .myrow .right-part .ortalama {
+    width: 100%;
+  }
+  .walnut .myrow .right-part .ortalama .ptext2 {
+    display: block;
+  }
+  .walnut .myrow .right-part .ortalama p {
+    text-align: center;
+  }
+  .walnut .myrow .right-part .ortalama p span {
+    font-size: 12px;
+  }
+  .walnut .myrow .right-part .ortalama h2 {
+    text-align: center;
+  }
+  .walnut .myrow .right-part .ortalama h5 {
+    text-align: center;
+  }
+  .walnut .myrow .right-part .ortalama .mycard p {
+    font-size: 12px;
+    width: 40%;
+  }
+}
+.meat {
+  padding: 25px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.meat .myproductlist {
+  position: relative;
+  width: 27%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #d6d4d4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.meat .myproductlist .ortalama {
+  width: 90%;
+  height: auto;
+  padding: 10px 0;
+}
+.meat .myproductlist .ortalama h2 {
+  font-family: "Secular One", sans-serif;
+  color: #0a472e;
+  font-size: 26px;
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  background-color: white;
+}
+.meat .myproductlist .ortalama .mycard {
+  width: 100%;
+  display: flex;
+  height: 140px;
+  padding: 20px 0;
+  border-bottom: 1px solid #d6d4d4;
+}
+.meat .myproductlist .ortalama .mycard .image-part {
+  width: 30%;
+}
+.meat .myproductlist .ortalama .mycard .image-part img {
+  cursor: pointer;
+  height: 100px;
+}
+.meat .myproductlist .ortalama .mycard .right-text-part {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+.meat .myproductlist .ortalama .mycard .right-text-part .center-text {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.meat .myproductlist .ortalama .mycard .right-text-part .center-text img {
+  height: 15px;
+  width: 72px;
+}
+.meat .myproductlist .ortalama .mycard .right-text-part .center-text p {
+  cursor: pointer;
+  font-size: 18px;
+}
+.meat .myproductlist .ortalama .mycard .right-text-part .center-text p:hover {
+  color: #9aa522;
+}
+.meat .myproductlist .ortalama .mycard .right-text-part .center-text p span {
+  font-family: "Secular One", sans-serif;
+  color: #a8b324;
+}
+.meat .myproductlist .ortalama .view-more {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meat .myproductlist .ortalama .view-more a {
+  position: relative;
+  text-decoration: none;
+  color: #0A472E;
+  font-weight: 700;
+  transition: 0.2s;
+  font-size: 12px;
+}
+.meat .myproductlist .ortalama .view-more a:hover {
+  color: #0d754a;
+}
+.meat .myproductlist .ortalama .view-more a:hover i {
+  right: -16px;
+}
+.meat .myproductlist .ortalama .view-more a i {
+  position: absolute;
+  font-size: 10px;
+  right: -13px;
+  bottom: 0px;
+  transition: 0.3s;
+}
+.meat .fresh-natural {
+  background-image: url("../img/meat.jpg");
+}
+.meat .breaking-bread {
+  background-image: url("../img/omlet.jpg");
+}
+.meat .breaking-bread h2 {
+  line-height: 38px !important;
+  font-size: 36px !important;
+  font-weight: 500 !important;
+}
+.meat .breaking-bread .shop-now {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+.meat .breaking-bread .shop-now a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  width: 135px;
+  height: 43px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  background-color: #0A472E;
+  transition: 0.2s;
+  font-size: 12px;
+}
+.meat .breaking-bread .shop-now a:hover {
+  background-color: #A8AA31;
+}
+.meat .breaking-bread .shop-now a:hover i {
+  right: 20px;
+}
+.meat .breaking-bread .shop-now a i {
+  position: absolute;
+  font-size: 9px;
+  right: 23px;
+  bottom: 18px;
+  transition: 0.3s;
+}
+.meat .info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 70vh;
+  background-position: 0px;
+  background-size: cover;
+  transition: 0.3s;
+}
+.meat .info-box:hover {
+  background-position: -40px;
+  background-blend-mode: hard-light;
+  background-color: rgba(82, 81, 81, 0.671);
+}
+.meat .info-box .text-part {
+  width: 70%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.meat .info-box .text-part h5 {
+  color: #A8AA31;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Pinyon Script", cursive;
+  margin-bottom: 18px;
+}
+.meat .info-box .text-part h2 {
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+  color: white;
+  font-family: "Secular One", sans-serif;
+  margin-bottom: 18px;
+}
+.meat .info-box .text-part p {
+  line-height: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+@media only screen and (max-width: 962px) {
+  .meat {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .meat .myproductlist {
+    width: 100% !important;
+    margin: 20px 0px;
+  }
+  .meat .info-box {
+    height: 40vh;
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+  .meat .info-box .text-part {
+    height: 30vh;
+  }
+}
+.comments {
+  width: 100%;
+  padding: 30px 0;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/back-img-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.comments .ortalama {
+  width: 95%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.comments .ortalama .left-part {
+  width: 340px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B5336;
+  background-image: url(../img/back-img-3.png);
+}
+.comments .ortalama .left-part .text-center {
+  width: 80%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.comments .ortalama .left-part .text-center .star-part {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.comments .ortalama .left-part .text-center h2 {
+  font-family: "Secular One", sans-serif;
+  color: #A8B324;
+  font-size: 70px;
+}
+.comments .ortalama .left-part .text-center h3 {
+  color: white;
+}
+.comments .ortalama .left-part .text-center a {
+  color: #A8B324;
+  font-size: 13px;
+}
+.comments .ortalama .left-part .text-center a i {
+  font-size: 10px;
+}
+.comments .ortalama .right-part {
+  width: 60%;
+}
+.comments .ortalama .right-part .slider1 {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comments .ortalama .right-part .slider1 .center {
+  width: 80%;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card .top-part {
+  display: flex;
+  width: 220px;
+  height: 70px;
+  justify-content: space-between;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card .top-part img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card .top-part h3 {
+  color: #A8B324;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card .top-part p {
+  color: #A1A1A1;
+  margin-top: 8px;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card h4 {
+  margin-top: 20px;
+  color: white;
+  width: 70%;
+  line-height: 30px;
+  font-size: 22px;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card .arrow-part {
+  margin-top: 20px;
+  display: flex;
+  height: 70px;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card .arrow-part .arrow {
+  border-radius: 50%;
+  border: 1px solid #cac9c9;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+}
+.comments .ortalama .right-part .slider1 .center .menim-card .arrow-part .arrow:hover {
+  background-color: #A8B324;
+}
+
+@media only screen and (max-width: 962px) {
+  .comments {
+    height: auto;
+  }
+  .comments .ortalama {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .comments .ortalama .left-part {
+    height: 320px;
+    width: 100% !important;
+  }
+  .comments .ortalama .left-part .text-center {
+    width: 80% !important;
+  }
+  .comments .ortalama .right-part {
+    width: 100%;
+  }
+  .comments .ortalama .right-part .slider1 {
+    padding: 25px 0;
+    height: auto;
+  }
+  .comments .ortalama .right-part .slider1 .menim-card {
+    height: auto;
+  }
+  .comments .ortalama .right-part .slider1 .menim-card h4 {
+    width: 100% !important;
+  }
+  .comments .ortalama .right-part .slider1 .menim-card .arrow-part {
+    display: none !important;
+  }
+}
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news .ortalama {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news .ortalama .top-part {
+  padding: 30px 0;
+}
+.news .ortalama .top-part .myrow2 {
+  margin: 0;
+}
+.news .ortalama .top-part .left-part {
+  display: flex;
+  align-items: center;
+}
+.news .ortalama .top-part .left-part i {
+  margin-right: 8px;
+  font-size: 13px;
+  color: #D44E74;
+}
+.news .ortalama .top-part .left-part h2 {
+  font-family: "Secular One", sans-serif;
+  font-size: 32px;
+  color: #0A472E;
+}
+.news .ortalama .body-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.news .ortalama .body-part .left-part {
+  width: 50%;
+  height: 70vh;
+  background-image: url("../img/brokoli.jpg");
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.7s;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.news .ortalama .body-part .left-part:hover {
+  background-size: 125%;
+}
+.news .ortalama .body-part .left-part .center-left {
+  width: 80%;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.news .ortalama .body-part .left-part .center-left a {
+  font-size: 12px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.news .ortalama .body-part .left-part .center-left a i {
+  margin-right: 8px;
+  font-size: 12px;
+}
+.news .ortalama .body-part .left-part .center-left h3 {
+  font-family: "Secular One", sans-serif;
+  font-size: 26px;
+  color: white;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.news .ortalama .body-part .left-part .center-left h3:hover {
+  color: #a8b324;
+}
+.news .ortalama .body-part .package a {
+  width: 105px;
+  height: 20px;
+  background-color: #a8b324;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px !important;
+  font-weight: 600;
+}
+.news .ortalama .body-part .card-package {
+  position: absolute;
+  left: 3%;
+  bottom: 10%;
+  z-index: 100;
+}
+.news .ortalama .body-part .right-part {
+  width: 48%;
+  height: 70vh;
+}
+.news .ortalama .body-part .right-part .mycard {
+  width: 100%;
+  height: 34vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.news .ortalama .body-part .right-part .mycard .image-part {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  position: relative;
+}
+.news .ortalama .body-part .right-part .mycard .image-part img {
+  width: 100%;
+  border-radius: 2px;
+}
+.news .ortalama .body-part .right-part .mycard .text-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+}
+.news .ortalama .body-part .right-part .mycard .text-part a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #0A472E;
+}
+.news .ortalama .body-part .right-part .mycard .text-part a i {
+  margin-right: 8px;
+  font-size: 12px;
+}
+.news .ortalama .body-part .right-part .mycard .text-part h3 {
+  font-family: "Secular One", sans-serif;
+  font-size: 22px;
+  color: #0A472E;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.news .ortalama .body-part .right-part .mycard .text-part h3:hover {
+  color: #a8b324;
+}
+.news .ortalama .body-part .right-part .mycard .text-part p {
+  color: #444444;
+  line-height: 25px;
+  margin-top: -20px;
+  font-size: 15px;
+}
+.news .ortalama .body-part .right-part .mycard .text-part a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #a8b324;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+.news .ortalama .body-part .right-part .mycard .text-part a i {
+  font-size: 10px;
+}
+.news .ortalama .body-part .right-part .mycard .text-part a:hover {
+  color: #7a831b;
+}
+
+@media only screen and (max-width: 962px) {
+  .news .ortalama .body-part .left-part {
+    display: none;
+  }
+  .news .ortalama .body-part .right-part {
+    height: auto;
+    width: 100%;
+  }
+  .news .ortalama .body-part .right-part .mycard {
+    margin-bottom: 20px;
+  }
+  .news .ortalama .body-part .right-part .mycard .text-part {
+    padding: 15px 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .news .ortalama .body-part .left-part {
+    display: none;
+  }
+  .news .ortalama .body-part .right-part {
+    height: auto;
+    width: 100%;
+  }
+  .news .ortalama .body-part .right-part .mycard {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .news .ortalama .body-part .right-part .mycard .image-part {
+    width: 100%;
+  }
+  .news .ortalama .body-part .right-part .mycard .text-part {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .news .ortalama .body-part .right-part .mycard .text-part a {
+    margin-bottom: 15px;
+  }
+  .news .ortalama .body-part .right-part .mycard .text-part h3 {
+    margin-bottom: 15px;
+  }
+  .news .ortalama .body-part .right-part .mycard .text-part p {
+    margin-bottom: 15px;
+  }
+}
+.width-100 {
+  width: 100%;
+}
+
+footer {
+  padding-top: 50px;
+  background-color: #083925;
+  margin-top: 40px;
+}
+footer .top-part {
+  padding-bottom: 40px;
+}
+footer .top-part p {
+  color: white;
+  font-size: 22px;
+  font-family: "Secular One", sans-serif;
+}
+footer .bottom-part {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+footer .bottom-part p {
+  color: rgb(224, 221, 221);
+}
+footer .bottom-part input {
+  padding: 15px 15px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+}
+footer .bottom-part button {
+  margin-top: 15px;
+  padding: 13px 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  background-color: #6722B5;
+  transition: 0.2s;
+}
+footer .bottom-part button:hover {
+  background-color: #ff7425;
+}
+footer .bottom-part .logolar {
+  margin-top: 30px;
+}
+footer .bottom-part .logolar .box {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(83, 83, 83);
+  border-radius: 5px;
+  transition: 0.2s;
+}
+footer .bottom-part .logolar .box i {
+  color: white;
+  font-size: 14px;
+}
+footer .bottom-part .logolar .box:hover {
+  background-color: #ff7425;
+}
+footer .bottom-part li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+footer .bottom-part li a {
+  text-decoration: none;
+  color: #909896;
+  transition: 0.1s;
+  font-size: 15px;
+}
+footer .bottom-part li a:hover {
+  color: #ff7425;
+}
+footer .last-part {
+  padding-top: 20px;
+}
+footer .last-part p {
+  font-size: 14px;
+  color: rgb(201, 201, 201);
+}
+
+.yuxari a {
+  text-decoration: none;
+  position: fixed;
+  z-index: 5;
+  right: 15px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #6722B5;
+  border-radius: 5px;
+}
+.yuxari a i {
+  color: white;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.width-95 {
+  width: 95%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-85 {
+  width: 85%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.width-70 {
+  width: 70%;
+}/*# sourceMappingURL=style.css.map */

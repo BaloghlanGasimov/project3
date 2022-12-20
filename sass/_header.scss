@@ -1,0 +1,131 @@
+header{
+    .top-part{
+        width: 100%;
+        height: 6vh;
+        background-color: #0A472E;
+        display: flex;
+        justify-content: center;
+        .ortalama{
+            display: flex;
+            width: 95%;
+            // border:1px solid red ;
+            .left-part{
+                width: 20%;
+                height: 6vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color:white;
+                // background-color: aqua;
+                .part{
+                    // width: 100%;
+                    // margin-right: 10px;
+                    display: flex;
+                    align-items: center;
+                    // background-color: gray;
+                }
+                p{
+                    margin: 0;
+                    height: 4vh;
+                    font-size: 13px;
+                    font-weight: 600;
+                    margin-right: 20px;
+                }
+                i{
+                    margin-right: 7px;
+                    font-size: 14px;
+                    color: whitesmoke;
+                }
+            }
+            .center-part{
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                color: white;
+                align-items: center;
+                .text{
+    
+                    display: flex;
+                    justify-content: center;
+                align-items: center;
+                    height: 3.5vh;
+    
+                    span{
+                        border-radius: 14px;
+                        height: 3.3vh;
+                        width: 75px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 10px;
+                        background-color: #a8b324;
+                        // color:blue;
+                        p{
+                            margin: 0;
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+                            font-weight: 600;
+                            // color:red;
+                        }
+                    }
+                    p{
+                        display: flex;
+                        // align-items: center;
+                        margin: 0;
+                        // height: 3vh;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .right-part{
+                width: 20%;
+                height: 6vh;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .mydropdown{
+                    position: relative;
+                    .mybutton{
+                        background-color:var(--top-part);
+                        border:none;
+                        color: white;
+                        font-size: 13px;
+                        font-weight: 600;
+                        transition: 0.2s;
+                        &:hover{
+                            color:#a8b324;
+                        }
+        
+                    }
+                .mymenu{
+                        // position: absolute !important;
+                        // bottom: -50px !important;
+                        // left: 0px !important;
+                        height:13vh;
+                        // width: 50px !important;
+                        // width: 50px !important;
+                        // background-color:aqua;
+                        padding: 10px;
+                    }
+                                 
+                }
+            
+                .dropdown-menu{
+                    // position: absolute !important;
+                    // bottom: -50px !important;
+                    // left: 0px !important;
+                    min-width: 120% !important;
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .top-part{
+            display: none;
+        }
+        
+    }
+    
+}

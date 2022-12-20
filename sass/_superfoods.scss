@@ -1,0 +1,199 @@
+.superfoods{
+    .superrow{
+        margin: 0px;
+        .left-part{
+        //     img{
+                // width: 100%;
+                height: 120vh;  
+        background-size: cover;
+        background-position: center;
+        // height: 600px;
+        background-image: url('../img/mygilas.jpg');
+
+        //     }
+        }
+    .right-part{
+        // height: 80vh;
+        height: 120vh;
+        background-image: url('../img/mygilas2.jpg');
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ortalama{
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content: center;
+            width: 60%;
+            height: 100vh;  
+            // border: 2px solid orangered;
+            .top-text{
+                width: 100%;
+                height: 35vh;
+                // border: 2px solid black;
+                display: flex;
+                // align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+                h5{
+                    color:#A8AA31;
+                    font-size: 30px;
+                    font-weight: 700;
+                    font-family: "Pinyon Script", cursive;
+                }
+                h2{
+                    width: 80%;
+                    letter-spacing: 2px;
+                    font-size: 40px;
+                    font-weight: 700;
+                    color:white;
+                    font-family: "Secular One", sans-serif;
+                }
+                p{
+                    // font-family: "Secular One", sans-serif;
+                    // font-size: 16px;
+                    line-height:25px;
+                    font-weight: 600;
+                    color:white;
+
+                }
+                
+            }
+            .center-part{
+                margin-top: 15px;
+                .symbol-card{
+                    // border: 2px solid yellow;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 35px;
+                }
+                .symbol{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: white;
+                    margin-bottom: 8px;
+                    i{
+                        font-size: 30px;
+                    }
+                }
+                p{
+                    // width: 50%;
+                    color: white;
+                }
+            }
+            .learn-more{
+                width: 100%;
+                // height: 50px;
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // border: 2px solid blue;
+                a{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: white;
+                    width: 150px;
+                    height: 50px;
+                    font-weight: 600;
+                    padding-bottom: 5px;
+                    border-radius: 25px;
+                    background-color: #0A472E;
+                    transition: 0.2s;
+                    &:hover{
+                        background-color: #A8AA31;
+                        i{
+                            right: 15px;
+                        }
+                    }
+                    i{
+                        position: absolute;
+                        font-size: 10px;
+                        right: 18px;
+                        bottom: 20px;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+    }
+}
+
+@media only screen and (max-width:992px){
+    .superfoods{
+        .superrow{
+            .left-part{
+                height: 35vh;
+            }
+            .right-part{
+                padding: 25px 0;
+                // height: 110vh;
+                height: auto;
+                .ortalama{
+                    width: 85%;
+                    // height: 110vh;
+                    height: auto;
+                    .top-text{
+                        height: 30vh !important;
+                        // height: auto !important;
+                        margin-bottom: 20px;
+                        h5{
+                            text-align: center;
+                        }
+                        h2{
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                    .center-part{
+                        .mysymbol{
+                            display: flex;
+                            justify-content: center;
+                        }
+                        .myp{
+                            display: flex;
+                            justify-content: center;
+                        }
+                    }
+                    .learn-more{
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:1500px){
+    .superfoods{
+        .superrow{      
+            .right-part{
+                .ortalama{
+                    // .center-part{
+                        // .symbol-card{
+                            // margin-bottom:20px !important;
+                        // }
+                    // }
+                    width: 80%;
+                    .top-text{
+                        height: 45vh;
+                    }
+                }
+            }
+        }
+    }
+
+}

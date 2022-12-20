@@ -1,0 +1,230 @@
+.walnut{
+    .myrow{
+        margin: 0;
+        background-image: url('../img/walnut.jpg');
+        // background-position:-120px;
+        background-position:center;
+        background-repeat: no-repeat;
+
+        .left-part{
+            height: 100vh;
+            // background-image: url('../img/walnut.jpg');
+            // background-size: cover;
+            
+
+            // img{
+            //     width: 100%;
+            // }
+        }
+        .right-part{
+            height: 100vh;
+
+            // border: 2px solid red;
+            display: flex;
+            justify-content: flex-end;
+            padding: 40px 0;
+            // align-items: center;
+           .ortalama{
+            height: 80vh;
+            // border: 2px solid orange;
+            // height: auto;
+            // padding: 25px 0;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h5{
+                color:#A8AA31;
+                font-size: 30px;
+                font-weight: 700;
+                font-family: "Pinyon Script", cursive;
+            }
+            h2{
+                // width: 80%;
+                letter-spacing: 2px;
+                font-size: 40px;
+                font-weight: 700;
+                color:#0A472E;
+                font-family: "Secular One", sans-serif;
+            }
+            p{
+                // font-family: "Secular One", sans-serif;
+                // font-size: 16px;
+                line-height:25px;
+                font-weight: 600;
+                color:#444444;
+                // color:white;
+                span{
+                    font-family: Secular One, sans-serif;
+                    font-weight: 100;
+                    font-size: 18px;
+                    color:#a8b324;
+                    margin-left: 15px;
+                }
+            }
+            .ptext1{
+                display: none;
+            }
+            .mycard{
+                width: 100%;
+                height: 70px;
+                // background-color: aqua;
+                display: flex;
+                align-items: center;
+                // margin-bottom: 40px;
+
+                // justify-content: space-between !important;
+                // justify-content: space-around;
+                img{
+                    // width: 100%;
+                    margin-right: 40px;
+                    height: 70px;
+                }
+                p{
+                    width: 30%;
+                }
+                .count{
+                    // width:650px !important;
+                    width:145px !important;
+                    border: 0.5px solid #e5e2e2;
+                    height: 40px;
+                    display: flex;
+                    background-color: white;
+                    // background-color: aqua;
+                    
+                    margin: 0 20px;
+                    .minus{
+                        display: flex;
+                        cursor: pointer;
+                        align-items: center;
+                        justify-content: center;
+                        width: 33%;
+                        &:hover{
+                            background-color: #e2e1e1;
+                        }
+                    }
+                    .number{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 33%;
+                    }
+                    .plus{
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 34%;
+                        &:hover{
+                            background-color: #e2e1e1;
+                        }
+                    }
+                }
+            }
+            .bundle{
+                border-top: 1px solid #d8d6d6 ;
+                padding-top: 20px;
+                h4{
+                    color:#555555;
+                    font-weight: 400;
+                    font-size: 18px;
+                    span{
+                        color:black;
+                        font-family: Secular One, sans-serif;
+                        font-weight: 100;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .learn-more{
+                width: 100%;
+                // height: 50px;
+                display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // border: 2px solid blue;
+                a{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: white;
+                    width: 150px;
+                    height: 50px;
+                    font-weight: 600;
+                    padding-bottom: 5px;
+                    border-radius: 25px;
+                    background-color: #0A472E;
+                    transition: 0.2s;
+                    &:hover{
+                        background-color: #A8AA31;
+                        i{
+                            right: 15px;
+                        }
+                    }
+                    i{
+                        position: absolute;
+                        font-size: 10px;
+                        right: 18px;
+                        bottom: 20px;
+                        transition: 0.3s;
+                    }
+                }
+            }
+           }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+
+    .walnut .myrow .right-part .ortalama p span{
+        font-size: none;
+    }
+
+    .walnut{
+        .myrow{
+            // background-position: right !important;
+            background-image: none;
+            background-color: #E8F8F7;
+            // .left-part{
+            //     display: none !important;
+            // }
+            .right-part{
+                height: auto !important;
+
+                .ortalama{
+                    // height: auto !important;
+                    width: 100%;
+                    .ptext2{
+                        display: block;
+                    }
+                    p{
+                        text-align: center;
+                        span{
+                            font-size: 12px ;
+                            // display: none;
+                        }
+                    }
+                    h2{
+                        text-align: center;
+                    }
+                    h5{
+                        text-align: center;
+
+                    }
+                    .mycard{
+                        p{
+                            font-size: 12px;
+                            // color:red;
+                            width: 40%;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
